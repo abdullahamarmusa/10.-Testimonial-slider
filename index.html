@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Testimonial Slider</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  
+  <!-- Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+<section>
+  <div class="container">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonial-content">
+            <div>
+              <img src="./asset/image/quote.png" alt="quote">
+              <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="user-image">
+            
+            <div class="testimonial-text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo nam autem aliquid quasi dolorem molestias consequuntur, praesentium libero enim!</p>
+              <h2>Arun Kumar</h2>
+              <p>Delivery Manager. Vigowebs</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-content">
+            <div>
+              <img src="./asset/image/quote.png" alt="quote">
+              <img src="https://randomuser.me/api/portraits/women/46.jpg" alt="user-image">
+            
+            <div class="testimonial-text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo nam autem aliquid quasi dolorem molestias consequuntur, praesentium libero enim!</p>
+              <h2>Bettie Bell</h2>
+              <p>Project Manager. Coco trees</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-content">
+            <div>
+              <img src="./asset/image/quote.png" alt="quote">
+              <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="user-image">
+            
+            <div class="testimonial-text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo nam autem aliquid quasi dolorem molestias consequuntur, praesentium libero enim!</p>
+              <h2>Melina</h2>
+              <p>Delivery Manager. Bees Group</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-content">
+            <div>
+              <img src="./asset/image/quote.png" alt="quote">
+              <img src="https://randomuser.me/api/portraits/men/40.jpg" alt="user-image">
+            
+            <div class="testimonial-text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo nam autem aliquid quasi dolorem molestias consequuntur, praesentium libero enim!</p>
+              <h2>Bobby Jack</h2>
+              <p>Project Associate. Bobs workshop</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-content">
+            <div>
+              <img src="./asset/image/quote.png" alt="quote">
+              <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="user-image">
+            
+            <div class="testimonial-text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo nam autem aliquid quasi dolorem molestias consequuntur, praesentium libero enim!</p>
+              <h2>Gerald Grey</h2>
+              <p>Delivery Manager. Witcher Associates</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-content">
+            <div>
+              <img src="./asset/image/quote.png" alt="quote">
+              <img src="https://randomuser.me/api/portraits/men/30.jpg" alt="user-image">
+            <div class="testimonial-text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo nam autem aliquid quasi dolorem molestias consequuntur, praesentium libero enim!</p>
+              <h2>Oliver Twist</h2>
+              <p>Delivery Manager. Snowhills Arena</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 5000, 
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      //Breakpoints for smaller devices
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        480: {
+          slidesPerView: 1.
+        },
+        640: {
+          slidesPerView: 3
+        },
+      }
+
+    });
+
+  </script>
+</body>
+
+</html>

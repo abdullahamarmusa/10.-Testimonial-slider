@@ -1,0 +1,68 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #22262a;
+  font-family: sans-serif;
+  color: #9ca3af;
+}
+
+.container {
+  display: flex;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  flex-wrap: wrap;
+  border-top-width: 2px;
+  border-color: #16191d;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-content {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  background: #16191d;
+}
+
+.swiper-slide img {
+  margin-right: 1rem;
+  border-radius: 50%;
+  width: 2.5rem;
+}
+
+.testimonial-text {
+  flex-grow: 1;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.swiper .swiper-pagination .swiper-pagination-bullet {
+  background-color: #fff;
+}
+
+.swiper .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #e60045;
+}
